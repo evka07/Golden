@@ -1,0 +1,137 @@
+/* Global */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+$font-text: 'Josefin Sans', sans-serif;
+$font-header: 'Open Sans', sans-serif;
+
+body {
+  margin: 0;
+  text-align: center;
+  background: #fff;
+  color: #3d3d3d;
+  font-size: 16px;
+  font-family: $font-text;
+  line-height: 1.7;
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
+}
+.section {
+  padding: 108px;
+}
+$color-main: #eb2f06;
+$color-dark: #3d3d3d;
+$color-light: #fff;
+
+
+.section-title {
+  position: relative;
+  font-size: 36px;
+  margin: 0 0 60px 0;
+  text-align: center;
+  font-family: $font-header;
+
+}
+.section-title::after {
+  position: absolute;
+  content: '';
+  bottom: -12px;
+  left: 50%;
+  width: 50px;
+  height: 10px;
+  transform: translateX(-50%);
+  background: green;
+}
+
+/* Splash */
+.splash {
+  height: 100vh;
+  position: relative;
+  background-image: url('https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.splash-inner {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.splash i {
+  font-size: 30px;
+  background: $color-main;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  color: #fff;
+  border-radius: 50%;
+}
+.page-title {
+  color: $color-light;
+  font-size: 60px;
+  margin: 48px 0 0 0;
+  position: relative;
+  text-align: center;
+  font-family: $font-header;
+}
+.page-title::after {
+  position: absolute;
+  content: '';
+  bottom: -24px;
+  left: 50%;
+  width: 100px;
+  height: 10px;
+  transform: translateX(-50%);
+  background: red;
+}
+.page-subtitle {
+  color: #fff;
+  font-size: 18px;
+  margin: 48px;
+  text-align: center;
+}
+
+/* About */
+.about {
+  background: #CAD3C8;
+}
+
+/* Skills */
+[class^="skill-"] {
+  position: relative;
+}
+.skill-image {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+}
+.skill-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.skill-right .skill-image {
+  right: 0;
+}
+.skill-right .skill-description {
+  padding: 36px 55% 36px 0;
+  text-align: right;
+}
+
+.skill-left .skill-description {
+  padding: 36px 0 36px 55%;
+  text-align: left;
+}
+
+/*Footer*/
+.page-footer {
+  background: #242424;
+  color: red;
+}
