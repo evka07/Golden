@@ -176,13 +176,10 @@ li a:hover {
     padding-bottom: 100px;
 }
 
-<<<<<<< HEAD
 .card__item {
 
 }
 
-=======
->>>>>>> parent of d0b3d0c (current version, all amendments to the comments have been made, the task is ready for verification)
 .card__icon {
     padding-bottom: 40px;
 }
@@ -463,11 +460,8 @@ li a:hover {
     }
 
     .card__container {
-<<<<<<< HEAD
         display: flex;
         flex-direction: column;
-=======
->>>>>>> parent of d0b3d0c (current version, all amendments to the comments have been made, the task is ready for verification)
         gap: 15px;
     }
 
