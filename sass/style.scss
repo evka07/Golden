@@ -460,6 +460,8 @@ li a:hover {
   }
 
   .card__container {
+    display: flex;
+    flex-direction: column;
     gap: 15px;
   }
 

@@ -66,11 +66,13 @@ body {
 
 /* Splash */
 .splash {
+
     height: 90vh;
     position: relative;
     background-image: url("https://images.pexels.com/photos/269077/pexels-photo-269077.jpeg");
     background-position: center center;
     background-size: cover;
+
 }
 
 .splash__name {
@@ -79,6 +81,7 @@ body {
     justify-content: space-between;
     position: relative;
     width: 100%;
+
 }
 
 .splash__name h2 {
@@ -155,6 +158,7 @@ li a:hover {
 .serv__title {
     font-size: 20px;
     color: #6c757d;
+
 }
 
 .serv__title h2 {
@@ -167,17 +171,19 @@ li a:hover {
 .card__container {
     display: flex;
     justify-content: space-between;
-    width: 100%;
     gap: 20px;
     padding-top: 100px;
     padding-bottom: 100px;
 }
 
+<<<<<<< HEAD
 .card__item {
 
 }
-.card__icon {
 
+=======
+>>>>>>> parent of d0b3d0c (current version, all amendments to the comments have been made, the task is ready for verification)
+.card__icon {
     padding-bottom: 40px;
 }
 
@@ -190,6 +196,10 @@ li a:hover {
     border-radius: 80%;
     border: 3px solid #ddc736;
     text-align: center;
+}
+
+.card__content {
+
 }
 
 .card__title {
@@ -209,6 +219,7 @@ li a:hover {
 /* Our Portfolio*/
 
 .port__container {
+
     gap: 20px;
     padding-top: 50px;
     padding-bottom: 100px;
@@ -236,6 +247,7 @@ li a:hover {
 
 .col-lg-3__card {
     background: #f2f2f2;
+
 }
 
 .col-lg-3__card img {
@@ -268,10 +280,11 @@ li a:hover {
     font-size: 25px;
 }
 
-/*//////////////////////////////////////Media///////////////////////////////////*/
+/*Media*/
+
+/*Media*/
 
 @media (max-width: 768px) {
-
     /* Splash */
 
     .splash__name h2 {
@@ -384,7 +397,6 @@ li a:hover {
 }
 
 @media (max-width: 576px) {
-
     /* Splash */
 
     .splash__name h2 {
@@ -432,6 +444,9 @@ li a:hover {
         font-size: 10px;
     }
 
+
+
+
     /* Services */
 
     .serv__title {
@@ -448,9 +463,12 @@ li a:hover {
     }
 
     .card__container {
-        gap: 15px;
+<<<<<<< HEAD
         display: flex;
         flex-direction: column;
+=======
+>>>>>>> parent of d0b3d0c (current version, all amendments to the comments have been made, the task is ready for verification)
+        gap: 15px;
     }
 
     .card__title {
@@ -466,18 +484,6 @@ li a:hover {
         font-weight: 400;
         line-height: 28px;
     }
-
-
-    .card__icon i {
-        font-size: 20px;
-        background: #ffffff;
-        width: 40px;
-        height: 40px;
-        line-height: 40px;
-        border-radius: 60%;
-        border: 3px solid #ddc736;
-        text-align: center;
-    }
 }
 
 
@@ -485,18 +491,4 @@ li a:hover {
 
 
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLm
-NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxXQUFBO0FBQ0E7RUFDRSxzQkFBQTtBQ0NGOztBRElBO0VBQ0UsU0FBQTtFQUNBLGtCQUFBO0VBQ0
-EsZ0JBQUE7RUFDQSxjQUFBO0VBQ0EsZUFBQTtFQUNBLHVDQVRVO0VBVVYsZ0JBQUE7QUNERjs7QURHQTtFQUNFLGlCQUFBO0VBQ0EsY0FBQTtFQUNBLGVBQU
-E7RUFDQSxrQkFBQTtBQ0FGOztBREVBO0VBQ0UsY0FBQTtBQ0NGOztBRE1BO0VBQ0Usa0JBQUE7RUFDQSxlQUFBO0VBQ0Esa0JBQUE7RUFDQSxrQkFBQTt
-FQUNBLG9DQTlCWTtBQzJCZDs7QURNQTtFQUNFLGtCQUFBO0VBQ0EsV0FBQTtFQUNBLGFBQUE7RUFDQSxTQUFBO0VBQ0EsV0FBQTtFQUNBLFlBQUE7RUFDQS
-wyQkFBQTtFQUNBLGlCQUFBO0FDSEY7O0FETUEsV0FBQTtBQUNBO0VBQ0UsYUFBQTtFQUNBLGtCQUFBO0VBQ0Esd0lBQUE7RUFDQSxrQ0FBQTtFQUNBLHNCQU
-FBO0VBQ0EsNEJBQUE7QUNIRjs7QURLQTtFQUNFLGtCQUFBO0VBQ0EsV0FBQTtFQUNBLFFBQUE7RUFDQSxTQUFBO0VBQ0EsZ0NBQUE7QUNGRjs7QURJQTt
-FQUNFLGVBQUE7RUFDQSxtQkExQ1c7RUEyQ1gsV0FBQTtFQUNBLFlBQUE7RUFDQSxpQkFBQTtFQUNBLFdBQUE7RUFDQSxrQkFBQTtBQ0RGOztBREdBO0VBQ0U
-sV0FoRFk7RUFpRFosZUFBQTtFQUNBLGtCQUFBO0VBQ0Esa0JBQUE7RUFDQSxrQkFBQTtFQUNBLG9DQTNFWTtBQzJFZDs7QURFQTtFQUNFLGtCQUFBO0VBQ0
-EsV0FBQTtFQUNBLGFBQUE7RUFDQSxTQUFBO0VBQ0EsWUFBQTtFQUNBLFlBQUE7RUFDQSwyQkFBQTtFQUNBLGVBQUE7QUNDRjs7QURDQTtFQUNFLFdBQUE7
-RUFDQSxlQUFBO0VBQ0EsWUFBQTtFQUNBLGtCQUFBO0FDRUY7O0FEQ0EsVUFBQTtBQUNBO0VBQ0UsbUJBQUE7QUNFRjs7QURDQSxXQUFBO0FBQ0E7RUFDRS
-xrQkFBQTtBQ0VGOztBREFBO0VBQ0Usa0JBQUE7RUFDQSxVQUFBO0VBQ0EsWUFBQTtFQUNBLGdCQUFBO0FDR0Y7O0FEREE7RUFDRSxXQUFBO0VBQ0EsWUFBQT
-tFQUNBLG9CQUFBO0tBQUEsaUJBQUE7QUNJRjs7QURGQTtFQUNFLFFBQUE7QUNLRjs7QURIQTtFQUNFLHdCQUFBO0VBQ0EsaUJBQUE7QUNNRjs7QURIQTt
-FQUNFLHdCQUFBO0VBQ0EsZ0JBQUE7QUNNRjs7QURIQSxTQUFBO0FBQ0E7RUFDRSxtQkFBQTtFQUNBLFVBQUE7QUNNRiIsImZpbGUiOiJzdHlsZS5jc3Mif
-Q== */
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxXQUFBO0FBQ0E7RUFDRSxzQkFBQTtBQ0NGOztBRElBO0VBQ0UsU0FBQTtFQUNBLGtCQUFBO0VBQ0EsZ0JBQUE7RUFDQSxjQUFBO0VBQ0EsZUFBQTtFQUNBLHVDQVRVO0VBVVYsZ0JBQUE7QUNERjs7QURHQTtFQUNFLGlCQUFBO0VBQ0EsY0FBQTtFQUNBLGVBQUE7RUFDQSxrQkFBQTtBQ0FGOztBREVBO0VBQ0UsY0FBQTtBQ0NGOztBRE1BO0VBQ0Usa0JBQUE7RUFDQSxlQUFBO0VBQ0Esa0JBQUE7RUFDQSxrQkFBQTtFQUNBLG9DQTlCWTtBQzJCZDs7QURNQTtFQUNFLGtCQUFBO0VBQ0EsV0FBQTtFQUNBLGFBQUE7RUFDQSxTQUFBO0VBQ0EsV0FBQTtFQUNBLFlBQUE7RUFDQSwyQkFBQTtFQUNBLGlCQUFBO0FDSEY7O0FETUEsV0FBQTtBQUNBO0VBQ0UsYUFBQTtFQUNBLGtCQUFBO0VBQ0Esd0lBQUE7RUFDQSxrQ0FBQTtFQUNBLHNCQUFBO0VBQ0EsNEJBQUE7QUNIRjs7QURLQTtFQUNFLGtCQUFBO0VBQ0EsV0FBQTtFQUNBLFFBQUE7RUFDQSxTQUFBO0VBQ0EsZ0NBQUE7QUNGRjs7QURJQTtFQUNFLGVBQUE7RUFDQSxtQkExQ1c7RUEyQ1gsV0FBQTtFQUNBLFlBQUE7RUFDQSxpQkFBQTtFQUNBLFdBQUE7RUFDQSxrQkFBQTtBQ0RGOztBREdBO0VBQ0UsV0FoRFk7RUFpRFosZUFBQTtFQUNBLGtCQUFBO0VBQ0Esa0JBQUE7RUFDQSxrQkFBQTtFQUNBLG9DQTNFWTtBQzJFZDs7QURFQTtFQUNFLGtCQUFBO0VBQ0EsV0FBQTtFQUNBLGFBQUE7RUFDQSxTQUFBO0VBQ0EsWUFBQTtFQUNBLFlBQUE7RUFDQSwyQkFBQTtFQUNBLGVBQUE7QUNDRjs7QURDQTtFQUNFLFdBQUE7RUFDQSxlQUFBO0VBQ0EsWUFBQTtFQUNBLGtCQUFBO0FDRUY7O0FEQ0EsVUFBQTtBQUNBO0VBQ0UsbUJBQUE7QUNFRjs7QURDQSxXQUFBO0FBQ0E7RUFDRSxrQkFBQTtBQ0VGOztBREFBO0VBQ0Usa0JBQUE7RUFDQSxVQUFBO0VBQ0EsWUFBQTtFQUNBLGdCQUFBO0FDR0Y7O0FEREE7RUFDRSxXQUFBO0VBQ0EsWUFBQTtFQUNBLG9CQUFBO0tBQUEsaUJBQUE7QUNJRjs7QURGQTtFQUNFLFFBQUE7QUNLRjs7QURIQTtFQUNFLHdCQUFBO0VBQ0EsaUJBQUE7QUNNRjs7QURIQTtFQUNFLHdCQUFBO0VBQ0EsZ0JBQUE7QUNNRjs7QURIQSxTQUFBO0FBQ0E7RUFDRSxtQkFBQTtFQUNBLFVBQUE7QUNNRiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
